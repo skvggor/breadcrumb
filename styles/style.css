@@ -12,8 +12,12 @@
     .layout .breadcrumb a{
         color: rgb(137, 191, 159);
         text-decoration: none;
-        text-transform: uppercase;
-        font: 14px Arial, sans-serif;
+        font: 20px 'Open Sans Condensed', sans-serif;
+        padding: 0 10px;
+    }
+
+    .layout .breadcrumb a:first-chiild(1){
+        padding-left: 0;
     }
 
     .layout .breadcrumb a:hover{
