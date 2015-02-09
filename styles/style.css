@@ -1,0 +1,26 @@
+.layout{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.layout .breadcrumb{
+    background: rgb(7, 32, 37);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+    .layout .breadcrumb a{
+        color: rgb(137, 191, 159);
+        text-decoration: none;
+        text-transform: uppercase;
+        font: 14px Arial, sans-serif;
+    }
+
+    .layout .breadcrumb a:hover{
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+    }
+
+    .layout .breadcrumb span{
+        color: rgb(255, 255, 255);
+    }
